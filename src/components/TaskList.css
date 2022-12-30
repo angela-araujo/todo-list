@@ -1,0 +1,8 @@
+main {
+    width: 46rem;
+    display: block;
+    background: rgb(100, 225, 227);
+    margin: 55px 52px;
+    display: flex;
+    flex-direction: column;
+}

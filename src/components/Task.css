@@ -1,0 +1,9 @@
+.task input[type=checkbox] {
+    appearance: none;
+    margin-right: 10px;
+}
+
+.task .circle-checked {
+    background: var(--purple-dark);
+    color: var(--white)
+}

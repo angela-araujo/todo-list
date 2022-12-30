@@ -1,0 +1,20 @@
+.header {
+    background: var(--gray-700);
+    display: flex;
+    flex-direction: column;
+    height: 12.5rem;
+
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid purple; */
+}
+
+.header .image-logo {
+    position: absolute;
+}
+
+.header img {
+    height: 3rem;
+    /* border: 1px solid green; */
+    display: block;
+}

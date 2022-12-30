@@ -1,0 +1,50 @@
+.new-task {
+    background: transparent;
+    position: relative;
+    display: block;
+
+    margin-top: 12.25rem;
+    width: 46rem;
+    height: 3.37rem;
+
+    /* border: 1px solid orange; */
+    padding: 0;
+}
+
+.new-task .task {
+    background: var(--gray-500);
+    border: solid 1px var(--gray-700);
+    border-radius: 8px;
+    color: var(--gray-300);
+
+    padding: 16px;
+    font-size: 1rem;
+    margin-right: 5px;
+    height: 3.3rem;
+    width: calc(90% - 5.6rem);
+}
+
+.new-task .task:focus {
+    color: var(--gray-100);
+    outline: 1px solid var(--purple-dark);
+}
+
+.new-task button {
+    height: 100%;
+    background: var(--blue-dark);
+    border-radius: 8px;
+    border: solid 1px var(--gray-700);
+    color: white;
+    width: 5.6rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+.new-task button:hover {
+    background: var(--blue);
+}
